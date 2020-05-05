@@ -6,7 +6,7 @@ function grab(url) {
   fetch(url)
     .then((res) => res.text())
     .then((text) => {
-      console.log(clean(text)); // passing out cleanup function a string
+      console.log(clean(text)); // passing our cleanup function a string
     });
 }
 
